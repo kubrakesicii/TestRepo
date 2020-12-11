@@ -14,6 +14,7 @@ namespace EntityUrunTakipSistemi
     {
         public FrmAnaform()
         {
+            ///////Burada degisiklikler yapildi////////
             InitializeComponent();
         }
 
@@ -33,6 +34,11 @@ namespace EntityUrunTakipSistemi
         {
             FrmIstatistik frmIstatistik = new FrmIstatistik();
             frmIstatistik.Show();
+
+        }
+
+        private void FrmAnaform_Load(object sender, EventArgs e)
+        {
 
         }
     }

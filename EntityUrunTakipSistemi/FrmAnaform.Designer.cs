@@ -89,6 +89,7 @@
             this.Name = "FrmAnaform";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmAnaform";
+            this.Load += new System.EventHandler(this.FrmAnaform_Load);
             this.ResumeLayout(false);
 
         }
